@@ -107,3 +107,48 @@ img.img {
   text-align: center;
   padding: 0.5rem 0;
 }
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+
+.location {
+  width: 35%;
+  height: auto;
+}
+
+.hours {
+  width: 35%;
+  height: auto;
+}
+#location-title {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+}
+
+#hours-title {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  height: 5rem;
+  width: auto;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  position: relative;
+  top: 2.5rem;
+  left: 5rem;
+}
