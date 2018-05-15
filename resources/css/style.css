@@ -170,15 +170,14 @@ footer p {
   .arrivals h2 {
     font-size: 1.4rem;
   }
-}
-
-@media screen and (max-width: 1024px) {
   .hidden-small {
     display: none;
   }
   .visible-small {
     display: block;
   }
+  .img3 {
+    display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -187,12 +186,6 @@ footer p {
   }
   .visible-large {
     display: flex;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .img3 {
-    display: none;
   }
 }
 
@@ -205,12 +198,33 @@ footer p {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .img1 {
+    width: 90%;
+  }
+
   .img2 {
     display: none;
   }
+  .banner {
+    height: 15rem;
+    width: auto;
+  }
   .arrivals-box  {
     position: relative;
-    top: 5rem;
+    top: 10rem;
     left: 3rem;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .location {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+  .hours {
+    width: 90%;
   }
 }
