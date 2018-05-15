@@ -16,12 +16,6 @@ ul {
   display: none;
 }
 
-@media screen and (max-width: 470px) {
-  .display h2 {
-    display: none;
-  }
-}
-
 .logo {
   display: flex;
   flex-direction: row;
@@ -54,26 +48,26 @@ ul {
   height: 25rem;
 }
 
-.arrivals {
-  position: relative;
-  top: 9rem;
-  left: 9rem;
-  font-family: Helvetica;
-  width: 20rem;
-  height: auto;
-  background-color: black;
-  color: white;
-  font-weight: bold;
-  padding-left: 3rem;
+.arrivals-box {
+    position: relative;
+    top: 9rem;
+    left: 9rem;
+    font-family: Helvetica;
+    width: 20rem;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-left: 3rem;
 }
 
-.arrivals, h3 {
+.arrivals-box h3 {
   font-size: 1rem;
   padding-top: 2rem;
   margin-bottom: 0.25rem;
 }
 
-.arrivals h2 {
+.arrivals-box h2 {
   font-size: 2rem;
   padding-bottom: 2rem;
 }
@@ -109,8 +103,8 @@ ul {
 
 img.img {
   height: 9rem;
-  margin: 2rem auto;
-  width: 10rem;
+  margin: 2rem;
+  object-fit: scale-down;
 }
 
 .images p {
@@ -199,5 +193,24 @@ footer p {
 @media screen and (max-width: 1024px) {
   .img3 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .display h2 {
+    display: none;
+  }
+  .display img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img2 {
+    display: none;
+  }
+  .arrivals-box  {
+    position: relative;
+    top: 5rem;
+    left: 3rem;
   }
 }
