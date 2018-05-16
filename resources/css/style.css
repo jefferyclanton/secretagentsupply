@@ -50,8 +50,8 @@ ul {
 
 .arrivals-box {
     position: relative;
-    top: 9rem;
-    left: 9rem;
+    top: 11rem;
+    left: 5rem;
     font-family: Helvetica;
     width: 20rem;
     height: auto;
@@ -211,9 +211,10 @@ footer p {
     width: auto;
   }
   .arrivals-box  {
-    position: relative;
-    top: 10rem;
-    left: 3rem;
+    top: 6rem;
+    left: 0;
+    width: inherit;
+    padding-left: 1rem;
   }
   .info {
     display: flex;
