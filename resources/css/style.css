@@ -150,12 +150,14 @@ footer {
   width: auto;
   background-color: black;
   color: white;
+  width: 100%;
 }
 
 footer p {
   position: relative;
   top: 2.5rem;
   left: 5rem;
+  width: 50%;
 }
 
 .text-centered {
