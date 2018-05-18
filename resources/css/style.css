@@ -164,6 +164,15 @@ footer p {
   text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .hidden-large {
+    display: none;
+  }
+  .visible-large {
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .arrivals, h3 {
     font-size: 0.9rem;
@@ -180,15 +189,6 @@ footer p {
   }
   .img3 {
     display: none;
-}
-
-@media screen and (min-width: 1024px) {
-  .hidden-large {
-    display: none;
-  }
-  .visible-large {
-    display: flex;
-  }
 }
 
 @media screen and (max-width: 470px) {
